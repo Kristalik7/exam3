@@ -46,7 +46,7 @@ class Gardener:
 def main():
     print('Справка: томаты необходимо собирать, если они достигли стадии "зеленый".')
     great_tomato_bush = TomatoBush(7)
-    gardener = Gardener('Эд', great_tomato_bush)
+    gardener = Gardener('Эди', great_tomato_bush)
     gardener.work()
     gardener.work()
     gardener.harvest()
